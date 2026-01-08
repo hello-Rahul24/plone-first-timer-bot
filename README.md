@@ -11,6 +11,8 @@ npm install
 # Run the bot
 npm start
 ```
+# Run in dev mode 
+npm run dev
 
 ## Docker
 
@@ -21,6 +23,8 @@ docker build -t plone-first-timer-bot .
 # 2. Start container
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> plone-first-timer-bot
 ```
+## Env secrets
+All the secrets are mentioned in env.example file 
 
 ## Contributing
 
