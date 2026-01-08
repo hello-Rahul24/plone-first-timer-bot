@@ -44,7 +44,7 @@ export default function firstTimeContributorBot(app: Probot) {
     }
 
     const message = [
-      `Hi @${username}! 👋`,
+      `Hi @${username}!`,
       ``,
       `Thanks for your interest in Plone.`,
       ``,
@@ -58,7 +58,7 @@ export default function firstTimeContributorBot(app: Probot) {
       ``,
       `These guidelines help keep discussions productive and welcoming for everyone.`,
       ``,
-      `Thanks for helping make Plone better ❤️`,
+      `Thanks for helping make Plone better`,
     ].join("\n");
 
     await context.octokit.issues.createComment({
